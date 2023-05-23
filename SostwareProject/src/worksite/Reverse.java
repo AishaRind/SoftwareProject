@@ -2,14 +2,14 @@ package worksite;
 
 public class Reverse {
 
-    int num = 1234;
+    int num = 5678;
     int reverse = 0;
 
     void reverse() {
         while (num != 0) {
-            int remainder = num % 10;
-            reverse = reverse * 10 + remainder;
-            num = num / 10;
+            int remainder = num % 20;
+            reverse = reverse * 20 + remainder;
+            num = num / 20;
 
 
         }
